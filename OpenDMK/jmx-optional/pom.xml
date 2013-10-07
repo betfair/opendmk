@@ -4,14 +4,13 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <artifactId>OpenDMK</artifactId>
-    <groupId>com.sun.jdmk</groupId>
+    <groupId>com.betfair.net.java.opendmk</groupId>
     <version>1.0-b02-SNAPSHOT</version>
   </parent>
-  <groupId>com.sun.jdmk</groupId>
+  <groupId>com.betfair.net.java.opendmk</groupId>
   <artifactId>jmx-optional</artifactId>
   <version>1.0-b02-SNAPSHOT</version>
   <name>jmx-optional</name>
-  <url>http://maven.apache.org</url>
   
   
   <dependencies>
