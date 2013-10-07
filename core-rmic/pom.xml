@@ -1,32 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <modelVersion>4.0.0</modelVersion>
-  <parent>
-    <artifactId>OpenDMK</artifactId>
-    <groupId>com.betfair.com.sun.jdmk</groupId>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.betfair.net.java.opendmk</groupId>
+        <artifactId>opendmk-pom</artifactId>
+        <version>1.0-b02-SNAPSHOT</version>
+    </parent>
+    <artifactId>core-rmic</artifactId>
     <version>1.0-b02-SNAPSHOT</version>
-  </parent>
-  <groupId>com.betfair.net.java.opendmk</groupId>
-  <artifactId>core-rmic</artifactId>
-  <version>1.0-b02-SNAPSHOT</version>
-  <name>core-rmic</name>
-  
-  
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.betfair.net.java.opendmk</groupId>
-      <artifactId>core</artifactId>
-      <version>${project.version}</version>
-    </dependency>    
-  </dependencies>
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
+    <name>core-rmic</name>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>com.betfair.net.java.opendmk</groupId>
+            <artifactId>core</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
 </project>
