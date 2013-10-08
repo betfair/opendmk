@@ -4,9 +4,9 @@
   <parent>
       <groupId>com.betfair.net.java.opendmk</groupId>
       <artifactId>opendmk-pom</artifactId>
-    <version>1.0-b02</version>
+    <version>1.0-b03-SNAPSHOT</version>
   </parent>
   <artifactId>jmx-optional</artifactId>
-  <version>1.0-b02</version>
+  <version>1.0-b03-SNAPSHOT</version>
   <name>jmx-optional</name>
 </project>
