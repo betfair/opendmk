@@ -15,7 +15,33 @@
     <packaging>pom</packaging>
 
     <name>OpenDMK</name>
-    <url>https://github.com/betfair/OpenDMK</url>
+    <description>Mavenised version of the open sourced JDMK from Sun</description>
+    <url>https://github.com/betfair/opendmk</url>
+
+
+    <organization>
+        <name>Betfair</name>
+        <url>http://www.betfair.com</url>
+    </organization>
+
+    <licenses>
+        <license>
+            <name>GNU General Public License, Version 2 only (GPL)</name>
+            <url>https://opendmk.java.net/legal_notices/LICENSE_GPL.txt</url>
+            <distribution>repo</distribution>
+        </license>
+        <license>
+            <name>Common Development and Distribution License (CDDL)</name>
+            <url>https://opendmk.java.net/legal_notices/LICENSE_CDDL.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <connection>scm:git:git@github.com:betfair/opendmk.git</connection>
+        <url>scm:git:git@github.com:betfair/opendmk.git</url>
+        <developerConnection>scm:git:git@github.com:betfair/opendmk.git</developerConnection>
+    </scm>
 
     <build>
         <plugins>
@@ -71,22 +97,6 @@
                     </configuration>
                     <dependencies>
                     </dependencies>
-                </plugin>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-jar-plugin</artifactId>
-                    <version>2.3.1</version>
-                    <configuration>
-                        <archive>
-                            <manifest>
-                                <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
-                                <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
-                                <addClasspath>true</addClasspath>
-                            </manifest>
-                            <manifestEntries>
-                            </manifestEntries>
-                        </archive>
-                    </configuration>
                 </plugin>
             </plugins>
         </pluginManagement>
